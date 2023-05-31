@@ -11,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* Mostly here we will add Navabr and Footer because these two has to rending and fixed in all pages right */}
+      {/* <Navbar/> */}
       <body className={inter.className}>{children}</body>
+      {/* <Footer/> */}
+      {/* what ever code u write here it will display in all routes and pages in our application */}
     </html>
   )
 }

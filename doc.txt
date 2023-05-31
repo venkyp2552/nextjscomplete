@@ -1,0 +1,17 @@
+If we want to do Nested Rendering with in the Router we can use Nester files as simple as sthat which we have on the code like posts folder examples..
+    -localhost:3000/ -->Home ROunte
+    -/posts -->Post Routing....
+    -.posts/newpost  --> New Post Rounting...
+
+u2:
+    -if we want to render parameter based or dynamic rendering wil follow below steps
+    -in react we use like /posts/:postId
+                          -/posts/blog-post-1
+                          -/posts/blog-post-2
+                          -/posts/blog-post-3 etcc....
+    -But in NextJs will follw like below..
+    -posts
+        -[postId] have to create with in the square brackets only...
+        which means [postId] this is the dynamic folder withing the posts...
+        - with in the posts folder we can create a new layout.js file also.
+            the purpose of this file is to allow us to sharing the UI Components between the Routes.
